@@ -2,12 +2,13 @@
 
 ## Instruções
 
-1) Escolha um dataset pronto adequado para classificação binária, evitando datasets "toy" como `Iris` ou `Pima Indians Diabetes`. Certifique-se de selecionar um dataset que ofereça desafios reais em termos de volume e complexidade.
+Para realizar esta atividade, você deve começar treinando o modelo de rede neural para detecção de fraudes em cartões de crédito. Os dados do cartão podem ser encontrados no link de conteúdo. Depois, obtenha as métricas de desempenho deste modelo como a precisão, recall, F1-score e AUC-ROC.  
 
-2) Em seguida, explore o dataset escolhido e explique suas características principais, como o número de amostras, features, e a tarefa de classificação que ele representa.
 
-3) Desenvolva um modelo sequencial em Keras com uma única camada Dense, utilizando uma unidade com a função de ativação sigmoid. Compile o modelo utilizando o otimizador adam, a função de perda binary_crossentropy, e a métrica accuracy. Inclua também a métrica F1 para uma avaliação mais completa, e explique brevemente a função de cada um desses componentes no treinamento.
+Em seguida, defina uma faixa de valores para os hiperparâmetros que deseja otimizar. Aplique técnicas de ajuste fino de hiperparâmetros para melhorar o desempenho do modelo. Você pode usar métodos como grid search e random search para encontrar as melhores combinações de hiperparâmetros.
 
-4) Treine o modelo por 50 épocas com um batch size de 10. Após o treinamento, utilize o modelo para prever os rótulos do conjunto de teste e calcule tanto a acurácia quanto a métrica F1. Interprete os resultados, discutindo o desempenho do modelo e possíveis melhorias.
 
-5) Entregue o link do caderno `.ipynb` em um repositório GitHub.
+Após otimizar o modelo, compare os resultados obtidos com os resultados do modelo original. Analise como as mudanças nos hiperparâmetros impactaram o desempenho, considerando cada uma das métricas mencionadas. Por fim, documente todas as etapas realizadas e as observações feitas durante o processo.
+
+
+Entregue o link do caderno `.ipynb` em um repositório GitHub.
